@@ -1,19 +1,44 @@
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a Hangman game using Python strings, loops, conditionals, and user input. Practice managing game state, validating guesses, and displaying progress to the player.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Word Selection and Game Setup
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Create a list of possible words and initialize the Hangman game state before the first guess.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Define a predefined list of words.
+- Randomly select one word each time the game starts.
+- Initialize the guessed letters, remaining attempts, and the hidden progress display.
+
+### 🛠️ Letter Guessing and Progress Display
+
+#### Description
+Prompt the player for letter guesses and update the displayed word progress after each valid guess.
+
+#### Requirements
+Completed program should:
+
+- Accept a single letter guess from the user.
+- Reveal correctly guessed letters in the progress display (for example: `_ _ a _ _`).
+- Track incorrect guesses and decrement remaining attempts appropriately.
+- Avoid counting duplicate guesses more than once.
+
+### 🛠️ Win/Lose Messages
+
+#### Description
+Detect when the game ends and show a clear win or lose message.
+
+#### Requirements
+Completed program should:
+
+- End the game when the player guesses the entire word or runs out of attempts.
+- Display a win message if the word is guessed.
+- Display a lose message with the correct word when attempts are exhausted.
