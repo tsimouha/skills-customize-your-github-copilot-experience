@@ -65,6 +65,20 @@
       "description": "Building a web API using FastAPI and Python",
       "path": "assignments/fastapi",
       "dueDate": "2026-06-17"
+    },
+    {
+      "id": "sqlite-persistence",
+      "title": "Python Persistence with SQLite",
+      "description": "Build a Python application that stores and manages data in a local SQLite database",
+      "path": "assignments/sqlite-persistence",
+      "dueDate": "2026-06-17",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
