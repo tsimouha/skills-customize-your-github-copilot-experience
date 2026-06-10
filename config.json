@@ -58,6 +58,13 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "fastapi",
+      "title": "FastAPI Introduction",
+      "description": "Building a web API using FastAPI and Python",
+      "path": "assignments/fastapi",
+      "dueDate": "2026-06-17"
     }
   ]
 }
